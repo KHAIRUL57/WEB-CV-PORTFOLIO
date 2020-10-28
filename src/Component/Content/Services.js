@@ -18,9 +18,7 @@ function Services() {
                   dolor sit amet consectetur adipisicing elit. Officia, vero ut
                   voluptatem atque tempore odio quaerat ad nesciunt aliquam sint
                   suscipit, debitis praesentium magni enim culpa, architecto
-                  provident laboriosam commodi. voluptatem atque tempore odio
-                  quaerat ad nesciunt aliquam sint suscipit, debitis praesentium
-                  magni enim culpa, architecto provident laboriosam commodi.
+                  provident laboriosam commodi.
                 </p>
               </div>
             </div>
@@ -34,9 +32,7 @@ function Services() {
                   dolor sit amet consectetur adipisicing elit. Officia, vero ut
                   voluptatem atque tempore odio quaerat ad nesciunt aliquam sint
                   suscipit, debitis praesentium magni enim culpa, architecto
-                  provident laboriosam commodi. voluptatem atque tempore odio
-                  quaerat ad nesciunt aliquam sint suscipit, debitis praesentium
-                  magni enim culpa, architecto provident laboriosam commodi.
+                  provident laboriosam commodi.
                 </p>
               </div>
             </div>
@@ -50,9 +46,7 @@ function Services() {
                   dolor sit amet consectetur adipisicing elit. Officia, vero ut
                   voluptatem atque tempore odio quaerat ad nesciunt aliquam sint
                   suscipit, debitis praesentium magni enim culpa, architecto
-                  provident laboriosam commodi. voluptatem atque tempore odio
-                  quaerat ad nesciunt aliquam sint suscipit, debitis praesentium
-                  magni enim culpa, architecto provident laboriosam commodi.
+                  provident laboriosam commodi.
                 </p>
               </div>
             </div>
