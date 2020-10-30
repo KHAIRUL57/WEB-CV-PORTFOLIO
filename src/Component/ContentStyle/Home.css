@@ -14,7 +14,7 @@
   min-height: 500px;
 }
 .home .max-width {
-  margin: auto 0 auto 30px;
+  margin: auto 0;
 }
 .home .home-content {
   margin: 0 125px;
@@ -60,6 +60,11 @@
     margin-left: 0px;
   }
 }
+@media (max-width: 1024px) {
+  .home .home-content {
+    margin: 0 110px;
+  }
+}
 @media (max-width: 991px) {
   .max-width {
     padding: 0 50px;
@@ -67,7 +72,7 @@
 }
 @media (max-width: 947px) {
   .home .home-content .text-2 {
-    font-size: 70px;
+    font-size: 60px;
   }
   .home .home-content .text-3 {
     font-size: 35px;
@@ -78,6 +83,11 @@
   }
   .max-width {
     max-width: 930px;
+  }
+}
+@media (max-width: 768px) {
+  .home .home-content {
+    margin: 0 25px;
   }
 }
 @media (max-width: 690px) {
@@ -94,7 +104,7 @@
     font-size: 20px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 516px) {
   .about .about-content .right .text,
   .skills .skills-content .left .text {
     font-size: 19px;
@@ -117,7 +127,15 @@
   .home .home-content .text-3 {
     font-size: 27px;
   }
+  .home .home-content {
+    margin: 0 80px;
+  }
   .home {
     width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .home .home-content {
+    margin: 0 70px;
   }
 }

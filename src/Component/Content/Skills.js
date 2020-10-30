@@ -58,6 +58,13 @@ function Skills() {
                 </div>
                 <div className="line react"></div>
               </div>
+              <div className="bars">
+                <div className="info">
+                  <span>MS.office</span>
+                  <span>80%</span>
+                </div>
+                <div className="line office"></div>
+              </div>
             </div>
           </div>
         </div>

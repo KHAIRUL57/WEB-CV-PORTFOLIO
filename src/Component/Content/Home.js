@@ -11,7 +11,7 @@ function Home() {
             <div className="text-1">Hello, my name is</div>
             <div className="text-2">Khairul Tamimi</div>
             <div className="text-3">
-              And I'm a{""}
+              And I'm a {""}
               <span>
                 <Typical
                   loop={Infinity}
@@ -29,7 +29,7 @@ function Home() {
                 />
               </span>
             </div>
-            <a href="/">Hire me</a>
+            <a href="#about">Get Started</a>
           </div>
         </div>
       </section>

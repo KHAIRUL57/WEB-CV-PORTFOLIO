@@ -3,36 +3,32 @@ import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [navbar, setNavbar] = useState(false);
+  // const [navbar, setNavbar] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const changeBackground = (val) => {
-    if (window.scrollY >= 30) {
-      setNavbar(true);
-    } else if (val === "click") {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
+  // const changeBackground = (val) => {
+  //   if (window.scrollY >= 10) {
+  //     setNavbar(true);
+  //   } else if (val === "click") {
+  //     setNavbar(true);
+  //   } else {
+  //     setNavbar(false);
+  //   }
+  // };
 
-  window.addEventListener("scroll", changeBackground);
+  // window.addEventListener("scroll", changeBackground);
+  // {navbar ? "navbar sticky" : "navbar"}
 
   return (
     <>
-      <nav className={navbar ? "navbar sticky" : "navbar"}>
+      <nav className="navbar ">
         <div className="navbar-container">
           <a href="#home" className="navbar-logo" onClick={closeMobileMenu}>
             Khairul<span>Tamimi</span>
-            <i className="fab fa-typo3" />
           </a>
-          <div
-            className="menu-icon"
-            onClick={handleClick}
-            // onClick={() => changeBackground("click")}
-          >
+          <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>

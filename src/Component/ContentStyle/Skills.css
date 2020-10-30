@@ -108,6 +108,9 @@
 .skills .skills-content .right .react::before {
   width: 60%;
 }
+.skills .skills-content .right .office::before {
+  width: 80%;
+}
 /* responsive media query start */
 @media (max-width: 991px) {
   .max-width {

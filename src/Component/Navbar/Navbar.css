@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 .navbar {
-  background: transparent;
+  background: crimson;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -8,25 +8,29 @@
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
-.navbar.sticky {
+/* .navbar.sticky {
   padding: 5px;
   background: crimson;
   transition: all 0.3s ease;
 }
 .navbar.sticky .navbar-logo span {
   color: #fff;
-}
+} */
 
 .navbar-container {
   font-family: ubuntu;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70px;
+  height: 60px;
   max-width: 1500px;
 }
 .navbar-container span {
-  color: crimson;
+  color: #fff;
+  font-weight: bold;
+}
+.navbar-container span:hover {
+  color: #333;
   font-weight: bold;
 }
 
@@ -34,7 +38,7 @@
   color: #fff;
   font-weight: bold;
   justify-self: start;
-  margin-left: 0px;
+  margin-left: 125px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -74,8 +78,8 @@
 }
 
 .nav-links:hover {
-  /* border-bottom: 4px solid crimson; */
-  color: crimson;
+  border-bottom: 4px solid #333;
+  color: #333;
   transition: all 0.3s ease-out;
 }
 .navbar.sticky .nav-links:hover {
@@ -95,9 +99,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
-  .navbar {
-  }
+@media screen and (max-width: 1041px) {
   .NavbarItems {
     position: relative;
   }
@@ -183,16 +185,33 @@
 
 @media (max-width: 947px) {
   .navbar-logo {
-    padding: 0 60px;
+    padding: 0 38px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-logo {
+    margin: 0 38px;
   }
 }
 @media (max-width: 690px) {
   .navbar-logo {
-    padding: 0 40px;
+    padding: 0 30px;
   }
 }
 @media (max-width: 510px) {
   .navbar-logo {
     padding: 0 40px;
+  }
+}
+@media (max-width: 425px) {
+  .navbar-logo {
+    padding: 0 0;
+    margin-left: 8rem;
+  }
+}
+@media (max-width: 375px) {
+  .navbar-logo {
+    padding: 0 0;
+    margin-left: 107px;
   }
 }
