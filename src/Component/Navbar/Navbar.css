@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 .navbar {
-  background: crimson;
+  background: royalblue;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -30,7 +30,7 @@
   font-weight: bold;
 }
 .navbar-container span:hover {
-  color: #333;
+  color: crimson;
   font-weight: bold;
 }
 
@@ -78,8 +78,8 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #333;
-  color: #333;
+  border-bottom: 4px solid crimson;
+  color: crimson;
   transition: all 0.3s ease-out;
 }
 .navbar.sticky .nav-links:hover {

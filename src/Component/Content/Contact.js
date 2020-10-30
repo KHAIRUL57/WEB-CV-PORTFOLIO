@@ -78,7 +78,7 @@ function Contact() {
       </section>
       <footer>
         <span>
-          Created By <a href="/">Khairul Tamimi</a>{" "}
+          Created By<a href="/">Khairul Tamimi</a>{" "}
           <span className="far fa-copyright"></span> 2020 All rights reserved.
         </span>
       </footer>

@@ -32,7 +32,7 @@
   content: "what i made ";
   position: absolute;
   font-size: 20px;
-  color: crimson;
+  color: royalblue;
   bottom: -13px;
   padding: 5px;
   left: 50%;
@@ -63,7 +63,7 @@
   object-fit: cover;
   border-radius: 50%;
   text-align: center;
-  border: 5px solid crimson;
+  border: 5px solid royalblue;
 }
 
 .project .carousel .card .box {
@@ -73,7 +73,7 @@
   border: 5px solid #fff;
 }
 .project .carousel .card:hover {
-  background: crimson;
+  background: royalblue;
 }
 .project .carousel .card:hover .box {
   transform: scale(1.05);
