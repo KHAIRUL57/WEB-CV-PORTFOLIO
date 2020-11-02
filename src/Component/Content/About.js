@@ -21,11 +21,9 @@ function About() {
                     loop={Infinity}
                     wrapper="b"
                     steps={[
-                      "Web Depeloper",
+                      "WebDepeloper",
                       2000,
-                      "Video Editor",
-                      2000,
-                      "Web Design",
+                      "VideoEditor",
                       2000,
                       "Youtuber",
                       2000,
@@ -34,14 +32,14 @@ function About() {
                 </span>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                nulla ad exercitationem illo explicabo dolorum at temporibus est
-                inventore fugit? Facere non molestiae nesciunt assumenda
-                consequatur numquam, sint inventore deserunt. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Cupiditate sint
-                dignissimos neque accusamus enim soluta quos, quam aspernatur
-                ducimus reiciendis porro sunt rerum a deserunt placeat vero
-                aperiam repellendus ipsum!
+                Hi, my name is Khairul Tamimi and I am a beginner programmer. I
+                currently live in the city of Batam, Riau Islands. Initially I
+                was able to become a programmer, because I followed the coding
+                program from Zeal Indonesia, which program was implemented at
+                the As-Syahid Islamic Boarding School in Batam City, and lasted
+                for 3 months. Outside of programming, I love playing with my
+                cat, reading comics, watching anime, and learning new skills,
+                and doing whatever is fun for me.
               </p>
               <a href="/">Download CV</a>
             </div>

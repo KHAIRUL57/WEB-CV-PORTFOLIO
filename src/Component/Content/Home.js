@@ -21,8 +21,6 @@ function Home() {
                     2000,
                     "Video Editor",
                     2000,
-                    "Web Design",
-                    2000,
                     "Youtuber",
                     2000,
                   ]}

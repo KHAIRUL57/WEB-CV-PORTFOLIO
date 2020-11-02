@@ -9,18 +9,16 @@ function Skills() {
           <h2 className="title">My Skills</h2>
           <div className="skills-content">
             <div className="column left">
-              <div className="text">My creatipe skills & expriences</div>
+              <div className="text">My creatipe skills</div>
               <p className="text-1">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus, est commodi. A aut quos cupiditate, expedita alias
-                iusto reiciendis repellendus deserunt? Exercitationem alias illo
-                nesciunt fugit sunt recusandae assumenda reiciendis quo
-                molestiae laboriosam harum, corporis saepe? Illum iste saepe
-                labore officiis explicabo, in velit esse odio id expedita animi
-                doloribus dolores dignissimos provident hic totam ipsam
-                consectetur, nostrum a! Repudiandae.
+                I started learning programming language at the coding school
+                organized by Zeal Indonesia in collaboration with the As-Syahid
+                Islamic boarding school. This pesantren coding program has been
+                running for 3 months which is still the Covid-19 pandemic, to
+                explain what skills I can while participating in this program.
+                shown in the following table
               </p>
-              <a href="/">Read more</a>
+              {/* <a href="/">Read more</a> */}
             </div>
             <div className="column right">
               <div className="bars">

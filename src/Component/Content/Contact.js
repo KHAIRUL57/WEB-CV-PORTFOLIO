@@ -1,10 +1,5 @@
 import React from "react";
 import "../ContentStyle/Contact.css";
-// import Whatsap from "../../Image/whatsapp.png";
-// import Facebook from "../../Image/facebook.png";
-// import Instagram from "../../Image/instagram.png";
-// import LinkedIn from "../../Image/linkedin.png";
-// import Github from "../../Image/github.png";
 
 function Contact() {
   return (

@@ -44,11 +44,11 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                href="#services"
+                href="#experience"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Experience
               </a>
             </li>
             <li className="nav-item">
@@ -57,12 +57,8 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a
-                href="#project"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Project
+              <a href="#teams" className="nav-links" onClick={closeMobileMenu}>
+                Teams
               </a>
             </li>
             <li className="nav-item">

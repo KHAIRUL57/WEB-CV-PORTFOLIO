@@ -17,13 +17,13 @@
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 180px;
+  width: 200px;
   height: 3px;
   background: #fff;
   transform: translateX(-50%);
 }
 .services .title::after {
-  content: "what i provide";
+  content: "My Experience job";
   position: absolute;
   font-size: 20px;
   color: royalblue;
@@ -38,7 +38,7 @@
   padding: 0 5vw;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .services .serv-content .card {
   background: #222;
@@ -47,19 +47,53 @@
   border-radius: 6px;
   padding: 20px 25px;
   cursor: pointer;
-  width: 30%;
+  width: 34%;
+  transition: all 0.3s ease;
+}
+.services .serv-content .card .box .alfamart {
+  color: royalblue;
+}
+.services .serv-content .card .box .alfamart:hover {
+  color: #fff;
+}
+.services .serv-content .card .box .alfamart img {
+  width: 250px;
+  height: 180px;
+}
+.services .serv-content .card .box .alfamart .title-company {
+  font-weight: 500;
+  font-size: 25px;
+}
+.services .serv-content .card .box .des-alf {
+  font-weight: 500;
+  padding: 7px 0;
+}
+.services .serv-content .card .box .alfamart .position,
+.year {
+  padding: 7px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+.services .serv-content .card .box .alfamart .description {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 500;
+}
+.services .serv-content .card:hover {
+  background-color: royalblue;
   transition: all 0.3s ease;
 }
 .services .serv-content .card .box {
   transition: all 0.3s ease;
 }
-.services .serv-content .card:hover {
-  background: royalblue;
-}
 .services .serv-content .card:hover .box {
   transform: scale(1.05);
 }
-.services .serv-content .card i {
+
+/* .services .serv-content .card:hover .box {
+  transform: scale(1.05);
+}
+.services .serv-content .card img {
   font-size: 50px;
   color: royalblue;
   transition: color 0.3s ease;
@@ -71,7 +105,8 @@
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
-}
+} */
+*/
 /* responsive media query start */
 @media (max-width: 991px) {
   .max-width {

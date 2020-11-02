@@ -1,18 +1,18 @@
 import React from "react";
 import Slider from "react-slick";
-import "../ContentStyle/Project.css";
+import "../ContentStyle/Teams.css";
 import Image from "../../Image/project-1.jpg";
 import Imagee from "../../Image/project-2.jpg";
 import Imageee from "../../Image/project-3.jpg";
-import Imageeee from "../../Image/project-4.jpg";
-import Imageeeee from "../../Image/project-5.jpg";
+// import Imageeee from "../../Image/project-4.jpg";
+// import Imageeeee from "../../Image/project-5.jpg";
 
-function Project() {
+function Teams() {
   const settings = {
     dots: true,
     autoplay: true,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     speed: 500,
     initialSlide: 0,
@@ -20,7 +20,7 @@ function Project() {
       {
         breakpoint: 1000,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 3,
           infinite: true,
           dots: true,
@@ -45,45 +45,48 @@ function Project() {
   };
   return (
     <div>
-      <section className="project" id="project">
+      <section className="project" id="teams">
         <div className="max-width">
-          <h2 className="title">My project</h2>
+          <h2 className="title">My teams</h2>
           <div className="carousel">
             <Slider {...settings}>
               <div className="card">
                 <div className="box">
                   <img src={Image} alt="/" />
-                  <div className="text">Project name</div>
-                  <p>
+                  <div className="text">Fauzi Apriana Basri</div>
+                  <a href="https://fauzi-portfolio.netlify.app/#">Portfolio</a>
+                  {/* <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Eligendi, dolor?
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="card">
                 <div className="box">
                   <img src={Imagee} alt="/" />
-                  <div className="text">Project name</div>
-                  <p>
+                  <div className="text">Huda</div>
+                  <a href="https://fauzi-portfolio.netlify.app/#">Portfolio</a>
+                  {/* <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Eligendi, dolor?
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="card">
                 <div className="box">
                   <img src={Imageee} alt="/" />
-                  <div className="text">Project name</div>
-                  <p>
+                  <div className="text">Funny</div>
+                  <a href="https://fauzi-portfolio.netlify.app/#">Portfolio</a>
+                  {/* <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Eligendi, dolor?
-                  </p>
+                  </p> */}
                 </div>
               </div>
-              <div className="card">
+              {/* <div className="card">
                 <div className="box">
                   <img src={Imageeee} alt="/" />
-                  <div className="text">Project name</div>
+                  <div className="text">Someone name</div>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Eligendi, dolor?
@@ -93,13 +96,13 @@ function Project() {
               <div className="card">
                 <div className="box">
                   <img src={Imageeeee} alt="/" />
-                  <div className="text">Project name</div>
+                  <div className="text">Someone name</div>
                   <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Eligendi, dolor?
                   </p>
                 </div>
-              </div>
+              </div> */}
             </Slider>
           </div>
         </div>
@@ -108,4 +111,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Teams;
