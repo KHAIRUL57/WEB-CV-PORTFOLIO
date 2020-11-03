@@ -64,7 +64,7 @@ function Contact() {
                     placeholder="Message.."
                   ></textarea>
                 </div>
-                <div className="field textarea">
+                <div className="field ">
                   <input
                     type="file"
                     name="myfile"
@@ -72,7 +72,7 @@ function Contact() {
                     placeholder="Upload File"
                   />
                 </div>
-                <div className="field textarea">
+                <div className="field ">
                   <div data-netlify-recaptcha="true"></div>
                 </div>
                 <div className="button">
