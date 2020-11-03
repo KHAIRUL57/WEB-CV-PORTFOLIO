@@ -3,7 +3,7 @@ import "../ContentStyle/Contact.css";
 
 function Contact() {
   return (
-    <div>
+    <div name="contact" method="POST" data-netlify="true">
       <section className="contact" id="contact">
         <div className="max-width">
           <h2 className="title">Contact me</h2>
