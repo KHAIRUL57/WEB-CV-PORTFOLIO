@@ -43,13 +43,14 @@ function Contact() {
             </div>
             <div className="column right">
               <div className="text">Message me</div>
-              <form action="#">
+              <form action="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="fields">
                   <div className="field name">
-                    <input type="text" placeholder="Name" required />
+                    <input type="text" placeholder="Your Name" required />
                   </div>
                   <div className="field email">
-                    <input type="email" placeholder="Email" required />
+                    <input type="email" placeholder="Your Email" required />
                   </div>
                 </div>
                 <div className="field">
@@ -57,11 +58,22 @@ function Contact() {
                 </div>
                 <div className="field textarea">
                   <textarea
+                    required
                     cols="30"
                     rows="10"
                     placeholder="Message.."
-                    required
                   ></textarea>
+                </div>
+                <div className="field textarea">
+                  <input
+                    type="file"
+                    name="myfile"
+                    id="myfile"
+                    placeholder="Upload File"
+                  />
+                </div>
+                <div className="field textarea">
+                  <div data-netlify-recaptcha="true"></div>
                 </div>
                 <div className="button">
                   <button type="submit">Send message</button>
