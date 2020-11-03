@@ -65,14 +65,6 @@ function Contact() {
                   ></textarea>
                 </div>
                 <div className="field ">
-                  <input
-                    type="file"
-                    name="myfile"
-                    id="myfile"
-                    placeholder="Upload File"
-                  />
-                </div>
-                <div className="field ">
                   <div data-netlify-recaptcha="true"></div>
                 </div>
                 <div className="button">
