@@ -3,7 +3,7 @@ import "../ContentStyle/Contact.css";
 
 function Contact() {
   return (
-    <div name="contact" method="POST" data-netlify="true">
+    <div>
       <section className="contact" id="contact">
         <div className="max-width">
           <h2 className="title">Contact me</h2>
@@ -43,7 +43,7 @@ function Contact() {
             </div>
             <div className="column right">
               <div className="text">Message me</div>
-              <form name="contact" method="POST" data-netlify="true">
+              <form action="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="fields">
                   <div className="field name">
@@ -64,9 +64,15 @@ function Contact() {
                     placeholder="Message.."
                   ></textarea>
                 </div>
-                <div className="field ">
-                  <div data-netlify-recaptcha="true"></div>
+                <div className="field textarea">
+                  <input
+                    type="file"
+                    name="myfile"
+                    id="myfile"
+                    placeholder="Upload File"
+                  />
                 </div>
+                <div data-netlify-recaptcha="true"></div>
                 <div className="button">
                   <button type="submit">Send message</button>
                 </div>
